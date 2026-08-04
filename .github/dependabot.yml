@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: /src/UniqueSingles
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      nuget-patch-minor:
+        update-types:
+          - patch
+          - minor
+
+  - package-ecosystem: nuget
+    directory: /tests/UniqueSingles.Test
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      nuget-patch-minor:
+        update-types:
+          - patch
+          - minor
