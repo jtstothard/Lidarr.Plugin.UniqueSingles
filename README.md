@@ -1,5 +1,10 @@
 # Lidarr Unique Singles
 
+> **This repository is no longer maintained.** Unique Singles is developed and released at
+> [jtstothard/lidarr-plugin-uniquesingles](https://github.com/jtstothard/lidarr-plugin-uniquesingles).
+> Install the plugin in Lidarr from `https://github.com/jtstothard/lidarr-plugin-uniquesingles`
+> and file issues there. The v1.0.0 and v1.0.1 releases here are early prototypes and are not updated.
+
 Automatically unmonitor and delete redundant singles that appear on monitored albums or EPs.
 
 ## Problem
